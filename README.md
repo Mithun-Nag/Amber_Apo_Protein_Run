@@ -32,6 +32,12 @@ Large output files from minimization and production stages have been removed —
 this notebook is provided as a **template and reproducible workflow** for setting up and running your own simulations.
 EOF
 
+## 📝Pre-processing tips (not included in this workflow)
+
+Please model any **missing loops** or unresolved regions in your structure before running the workflow.  
+We recommend preprocessing your structure (e.g., repairing missing residues, protonation states) and then uploading it to the **H++ server** to obtain a properly protonated `.pqr` file.  
+
+Use this `.pqr` file as input to generate your solvated and neutralized system in LEaP.
 
 ## 🏃 Minimization, Equilibration & Production
 
