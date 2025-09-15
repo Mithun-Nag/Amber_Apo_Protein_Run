@@ -22,8 +22,9 @@ the workflow can be easily adapted to other HPC clusters or even a local AMBER i
 - On other systems, adjust the module load lines to match your environment.  
 - If modules are not available, you can source Amber manually at the top of the notebook:  
 
-```bash
 !source /sb/apps/amber22/amber.sh
+
+
 
 **NOTE**
 Large output files from minimization and production stages have been removed —  
@@ -39,7 +40,7 @@ NVT & NPT **equilibration** phases stabilize temperature and density.
 
 Production MD is automated using a **Perl driver script** (`production.pl`) which loops over multiple 100ns chunks
 
-Take a look at the production.pl in the scripts and edit according to need if requried to run for a longer time.
+Edit production.pl in the scripts according to need if requried to run for a longer time.
 
         .-""""-.
        /        \
