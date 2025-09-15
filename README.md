@@ -6,7 +6,8 @@ This repository contains a **Jupyter Notebook workflow** for setting up and runn
 
 ## 📂 Contents
 
-- **Amber_Apo_Run.ipynb** – End-to-end workflow for protein preparation, system solvation, minimization, equilibration, and production MD  is your main file 
+- **Amber_Apo_Run.ipynb** – End-to-end workflow for protein preparation, system solvation, minimization, equilibration, and production MD
+ This is your main file 
 
 ---
 
