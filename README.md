@@ -19,7 +19,7 @@ Although designed for **ACCRE (Vanderbilt University HPC cluster)**,
 the workflow can be easily adapted to other HPC clusters or even a local AMBER installation.  
 
 **Important:**  
-- On ACCRE, the notebook loads the required Amber modules automatically.  
+- On ACCRE, the notebook loads the required Amber modules.  
 - On other systems, adjust the module load lines to match your environment.  
 - If modules are not available, you can source Amber manually at the top of the notebook:  
 
